@@ -3,6 +3,8 @@ const express = require('express');
 const nodemailer = require('nodemailer');
 const dotenv = require('dotenv').config();
 const output = require("./affirmations")
+const PORT = process.env.PORT || 3000;
+
 
 
 // Create an instance of Express
@@ -58,7 +60,7 @@ cron.schedule('* * * * *', function() {
   });
 });
 
-app.listen(3000, function(err) {
+app.listen(PORT, function(err) {
     if (err) console.log("Error in server setup")
     console.log("Server listening on Port 3000"); 
 });

@@ -31,7 +31,7 @@ function resetMessage() {
 // Reseting the message / setting the first message
 resetMessage();
 // Reseting the message / setting the message every 43200000 (12 hours) seconds
-setInterval(resetMessage,43200000)
+setInterval(resetMessage,900)
 
 
 // Mail transport configuration

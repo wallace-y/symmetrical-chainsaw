@@ -33,7 +33,7 @@ function resetMessage() {
 // Reseting the message / setting the first message
 resetMessage();
 // Reseting the message / setting the message every 43200000 (12 hours) seconds
-setInterval(resetMessage,900)
+setInterval(resetMessage,43200000)
 
 
 // Mail transport configuration
@@ -67,5 +67,5 @@ app.get('/', (req, res) => {
 
 app.listen(PORT, function(err) {
     if (err) console.log("Error in server setup")
-    console.log("Server listening on Port 3000"); 
+    console.log("Server listening on Port",PORT); 
 });

@@ -24,7 +24,7 @@ function resetMessage() {
     mailOptions = {
         from: 'cameronwfinney@gmail.com',
         to: process.env.BOO_EMAIL,
-        subject: 'Email from Node-App: A Test Message!',
+        subject: 'Email from your boo: Keep going!',
         text: message,
       };
 }

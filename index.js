@@ -12,7 +12,7 @@ app = express();
 
 // Creating the initial message
 let affirmation;
-let message= `Corinna,\n\n${affirmation}\n\nI love you millions.\n\nHave a great day!`
+let message= `Corinna,\n\n${affirmation}\n\nI love you millions.\n\nHave a great day!\n\nCam`
 let mailOptions = {
     from: 'cameronwfinney@gmail.com',
     to: process.env.BOO_EMAIL,

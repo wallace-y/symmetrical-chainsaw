@@ -62,7 +62,7 @@ cron.schedule('0 7 * * *', function() {
 
 // Adding post route for some default html
 app.get('/', (req, res) => {
-  res.send('hello world')
+  res.sendFile('./home.html',{ root: __dirname })
 })
 
 app.listen(PORT, function(err) {

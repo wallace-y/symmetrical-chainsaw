@@ -60,6 +60,11 @@ cron.schedule('0 7 * * *', function() {
   });
 });
 
+// Adding post route for some default html
+app.get('/', (req, res) => {
+  res.send('hello world')
+})
+
 app.listen(PORT, function(err) {
     if (err) console.log("Error in server setup")
     console.log("Server listening on Port 3000"); 

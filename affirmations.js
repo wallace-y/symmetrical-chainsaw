@@ -135,7 +135,6 @@ const affirmations = [
 
 function getRandomAffirmation() {
     const randomIndex = Math.floor(Math.random() * affirmations.length);
-    console.log(affirmations[randomIndex])
     return affirmations[randomIndex];
 }
 

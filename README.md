@@ -1,4 +1,4 @@
-#Affirmation Email Sender
+# Affirmation Email Sender
 This is a Node.js application that sends a daily affirmation email to a specified recipient. The email message is composed of a random affirmation generated from a list of affirmations, and a personalized greeting.
 
 The application uses the following technologies:
@@ -10,7 +10,7 @@ The application uses the following technologies:
 - dotenv for managing environment variables
 - A list of affirmations stored in a separate file
 
-##Installation
+## Installation
 To run the application, follow these steps:
 
 1. Clone the repository

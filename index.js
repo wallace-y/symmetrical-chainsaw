@@ -47,7 +47,7 @@ let transporter = nodemailer.createTransport({
   });
 
 
-cron.schedule('30 7 * * *', function() {
+cron.schedule('35 7 * * *', function() {
     console.log('---------------------');
     console.log('Running Cron Process');
     console.log('Tasked scheduled with 1 minute interval')

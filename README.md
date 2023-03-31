@@ -16,10 +16,11 @@ To run the application, follow these steps:
 1. Clone the repository
 2. Install dependencies by running npm install
 3. Create a .env file in the root directory and add the following variables:
-'code'
+
+```
 BOO_EMAIL=recipient_email_address
 GMAIL_PASS=gmail_account_password
-'code'
+```
 
 Replace **recipient_email_address** with the email address of the recipient, and **gmail_account_password** with the password for the Gmail account used to send the email.
 

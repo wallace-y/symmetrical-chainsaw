@@ -36,7 +36,7 @@ const affirmations = [
     "You have a beautiful spirit.",
     "You have a positive impact on the people around you.",
     "You are a great communicator.",
-    "You have a natural talent for ________ (fill in the blank).",
+    "You have a natural talent for kindness.",
     "You have a unique and valuable perspective.",
     "You have a magnetic personality.",
     "You are a quick learner.",
@@ -46,7 +46,7 @@ const affirmations = [
     "You have a contagious positive energy.",
     "You have a great sense of humor that can make anyone laugh.",
     "You have a big heart and a generous spirit.",
-    "You have a special talent for ________ (fill in the blank).",
+    "You have a special talent for kindness.",
     "You have a beautiful soul.",
     "You are a wonderful role model.",
     "You have a great attitude.",
@@ -130,8 +130,10 @@ const affirmations = [
     "You have a way of making people feel empowered and confident.",
     "You have a heart for making meaningful connections with others.",
     "You have a unique and powerful purpose in life.",
-    "You have a contagious sense of wonder."];  
-
+    "You have a contagious sense of wonder.",
+    "You are capable of achieving great things.",    "You have the power to overcome any challenge.",    "You possess unique talents and abilities that make you special.",    "You are worthy of love and respect.",    "You are deserving of happiness and fulfillment.",    "You are a valuable member of your community.",    "You have the potential to make a positive impact on the world.",    "You are intelligent and capable of learning and growing.",    "You are a work in progress, and that's okay.",    "You have the ability to create the life you want.",    "You are in control of your own happiness and success.",    "You are enough, just as you are.",    "You are loved and appreciated for who you are.",    "You have the power to change your thoughts and beliefs.",    "You are worthy of all the good things that come your way.",    "You have a purpose in this world.",    "You are surrounded by love and support.",    "You are beautiful, inside and out.",    "You are constantly evolving and improving.",    "You have the strength to overcome any obstacle.",    "You are a unique and valuable individual.",    "You have the ability to create positive change in your life.",    "You are capable of achieving your dreams.",    "You are strong and resilient.",    "You are worthy of respect and admiration.",    "You have the power to make a difference.",    "You are an important and integral part of the universe.",    "You are constantly learning and growing.",    "You are capable of handling whatever comes your way.",    "You are surrounded by abundance and prosperity.",    
+    "You have a bright and prosperous future ahead of you.",
+];  
 
 function getRandomAffirmation() {
     const randomIndex = Math.floor(Math.random() * affirmations.length);

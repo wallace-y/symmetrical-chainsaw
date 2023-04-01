@@ -47,20 +47,7 @@ let transporter = nodemailer.createTransport({
   });
 
 
-cron.schedule('30 9 * * *', function() {
-    console.log('---------------------');
-    console.log('Running Cron Process');
-    console.log('Tasked scheduled with 1 minute interval')
-
-// Delivering mail with sendMail method
-
-  transporter.sendMail(mailOptions, (error, info) => {
-    if (error) console.log(error);
-    else console.log('Email sent: ' + info.response);
-  });
-});
-
-cron.schedule('30 10 * * *', function() {
+cron.schedule('40 10 * * *', function() {
   console.log('---------------------');
   console.log('Running Cron Process');
   console.log('Tasked scheduled with 1 minute interval')

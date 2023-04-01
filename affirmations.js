@@ -67,7 +67,6 @@ const affirmations = [
     "You have a beautiful singing voice.",
     "You have a great way of handling difficult situations.",
     "You have a way of making people feel loved.",
-    "You are an amazing parent.",
     "You have a natural talent for making people feel understood.",
     "You have a unique and creative approach to problem-solving.",
     "You have a way of making everyone feel welcome.",

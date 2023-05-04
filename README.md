@@ -29,7 +29,7 @@ BOO_EMAIL=<recipient_email_address>
 - Replace **<your_boo_name>** with the name of the person you wish address, correctly capitalised as above
 - Replace **<recipient_email_address>** with the email address of the person you wish to send too
 
-For **<gmail_account_password>** you will need to create a specific app password: https://support.google.com/accounts/answer/185833?hl=en
+- For **<gmail_account_password>** you will need to create a specific app password: https://support.google.com/accounts/answer/185833?hl=en
     1. Go to your Google Account.
     2. Select Security.
     3. Under "Signing in to Google," select App Passwords. You may need to sign in. If you don’t have this option, it might be because:

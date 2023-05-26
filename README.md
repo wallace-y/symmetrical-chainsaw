@@ -43,3 +43,4 @@ BOO_EMAIL=<recipient_email_address>
 
 4. Start the application by running node index.js
 5. The application will send a daily affirmation email to the specified recipient at 7:45 AM (UTC) every day.
+6. You may repeat the process to add multiple recipients
